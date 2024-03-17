@@ -6,10 +6,6 @@
 			<reason>Lines start with lower case roman numerals.</reason>
 		</ignore>
 		<ignore>
-			<code>y-004</code>
-			<reason>Opening quote after dash matches scans.</reason>
-		</ignore>
-		<ignore>
 			<code>y-019</code>
 			<reason>Right quotation mark used for ditto gets flagged if td has a class.</reason>
 		</ignore>
