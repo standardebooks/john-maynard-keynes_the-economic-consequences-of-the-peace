@@ -1,2 +1,163 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+table{
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	margin: 1em;
+}
+
+th,
+td{
+	padding-left: 15px;
+}
+
+ol{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.total{
+	border-top: 1px solid;
+}
+
+#chapter-1 [epub|type~="z3998:verse"] p > span:first-of-type{
+	display: block;
+	font-style: italic;
+	margin-top: 1em;
+	text-indent: 5em;
+}
+
+#chapter-4 ol{
+	counter-reset: roman;
+}
+
+#chapter-4 ol li{
+	list-style: none;
+	position: relative;
+}
+
+#chapter-4 ol li:before{
+	content: "(" counter(roman, lower-roman)")";
+	counter-increment: roman;
+	display: inline-block;
+	left: -1.5em;
+	position: absolute;
+}
+
+#chapter-5-1 ol:first-of-type,
+#chapter-5-3-1 ol:first-of-type{
+	counter-set: alpha;
+}
+
+#chapter-5-1 ol li,
+#chapter-5-3-1 ol li{
+	list-style: none;
+	position: relative;
+}
+
+#chapter-5-1 ol li:before,
+#chapter-5-3-1 ol li:before{
+	content: "(" counter(alpha, lower-alpha)")";
+	counter-increment: alpha;
+	display: inline-block;
+	left: -1.5em;
+	position: absolute;
+}
+
+#chapter-5-2 ol{
+	position: relative;
+}
+
+#chapter-5-2 ol li:first-of-type:before{
+	content: "“";
+	display: inline-block;
+	left: 1em;
+	position: absolute;
+}
+
+#chapter-5-3-3 ol{
+	counter-reset: decimal;
+}
+
+#chapter-5-3-3 ol li{
+	list-style: none;
+	position: relative;
+}
+
+#chapter-5-3-3 ol li:before{
+	content: "(" counter(decimal, decimal)")";
+	counter-increment: decimal;
+	display: inline-block;
+	left: -1.5em;
+	position: absolute;
+}
+
+#chapter-4-2 tr td:nth-of-type(2),
+#chapter-5-1 tr td:nth-of-type(2),
+#chapter-5-2 tr td:nth-of-type(2),
+#chapter-5-3 tr td:nth-of-type(2),
+#chapter-5-3 tr td:nth-of-type(3),
+#chapter-5-3 tr td:nth-of-type(4),
+#chapter-5-3 tr td:nth-of-type(5),
+#note-122 tr td:nth-of-type(3),
+#note-151 tbody tr td:nth-of-type(3),
+#note-151 tbody tr td:nth-of-type(4),
+#note-152 tbody tr td:nth-of-type(3),
+#note-152 tbody tr td:nth-of-type(4),
+#note-157 tbody tr td:nth-of-type(3),
+#note-157 tbody tr td:nth-of-type(4){
+	text-align: right;
+}
+
+#endnotes th{
+	text-align: center;
+}
+
+#chapter-5-3 table:nth-of-type(-n+2) td:nth-of-type(2),
+#chapter-5-3 table:nth-of-type(-n+2) td:nth-of-type(3){
+	width: 7em;
+}
+
+#chapter-5-3 table:nth-of-type(-n+2) td:nth-of-type(1){
+	width: 20em;
+}
