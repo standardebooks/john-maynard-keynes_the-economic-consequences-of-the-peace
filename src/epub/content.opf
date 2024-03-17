@@ -38,14 +38,16 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85040825</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A first-hand account of the 1919 Paris Peace Conference and an analysis of the resulting Versailles treaty.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Before becoming one of the twentieth century’s most celebrated economists, &lt;a href="https://standardebooks.org/ebooks/john-maynard-keynes"&gt;John Maynard Keynes&lt;/a&gt; served as a financial representative for the British Treasury at the 1919 Paris Peace Conference to negotiate the Versailles treaty which would officially end World War I. Keynes resigned from the treasury in protest about a month before the final treaty was signed and &lt;i&gt;The Economic Consequences of the Peace&lt;/i&gt; provides his reasons for doing so.&lt;/p&gt;
+			&lt;p&gt;Keynes contends that domestic political considerations and a desire for revenge led to an unreasonably high burden being placed on the defeated Germany. In making the argument he paints unflattering portraits of the then French President Georges Clemenceau, the British Prime Minister David Lloyd George, and the American President Woodrow Wilson.&lt;/p&gt;
+			&lt;p&gt;According to Keynes, the effect of negotiated treaty on the population of an already impoverished enemy was considered a far low priority than disputes over borders. Meanwhile the exceptionally high cost of reparations placed on an economically spent Germany could never be repaid and was mainly an act of political grandstanding. Keynes predicted widespread suffering in the defeated powers resulting in a turn towards political extremism. Unfortunately subsequent events would prove his predictions right.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Economic Consequences of the Peace&lt;/i&gt; was an immediate bestseller in both the U.S. and the U.K. and has never been out of print. Though today some economists contend that Keynes may have been overly pessimistic about Germany’s ability to pay and the leniency of the Allies, many of the recommendations presented in the book were adopted as part of the Marshall Plan after the conclusion of World War II.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15776</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.135642</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Economic_Consequences_of_the_Peace</meta>
