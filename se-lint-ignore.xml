@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-4.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lines start with lower case roman numerals.</reason>
+		</ignore>
+		<ignore>
+			<code>y-004</code>
+			<reason>Opening quote after dash matches scans.</reason>
+		</ignore>
+		<ignore>
+			<code>y-019</code>
+			<reason>Right quotation mark used for ditto gets flagged if td has a class.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-5.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lines start with lower case roman numerals.</reason>
+		</ignore>
+		<ignore>
+			<code>y-019</code>
+			<reason>Opening quote for blockquote included in CSS.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
