@@ -67,41 +67,12 @@ ol{
 	text-indent: 5em;
 }
 
-#chapter-4 ol{
-	counter-reset: roman;
-}
-
-#chapter-4 ol li{
-	list-style: none;
-	position: relative;
-}
-
-#chapter-4 ol li:before{
-	content: "(" counter(roman, lower-roman)")";
-	counter-increment: roman;
-	display: inline-block;
-	left: -1.5em;
-	position: absolute;
-}
-
-#chapter-5-1 ol:first-of-type,
-#chapter-5-3-1 ol:first-of-type{
-	counter-set: alpha;
-}
-
+#chapter-4 ol li,
 #chapter-5-1 ol li,
-#chapter-5-3-1 ol li{
+#chapter-5-3-1 ol li,
+#chapter-5-3-3 ol li{
 	list-style: none;
 	position: relative;
-}
-
-#chapter-5-1 ol li:before,
-#chapter-5-3-1 ol li:before{
-	content: "(" counter(alpha, lower-alpha)")";
-	counter-increment: alpha;
-	display: inline-block;
-	left: -1.5em;
-	position: absolute;
 }
 
 #chapter-5-2 ol{
@@ -112,23 +83,6 @@ ol{
 	content: "“";
 	display: inline-block;
 	left: 1em;
-	position: absolute;
-}
-
-#chapter-5-3-3 ol{
-	counter-reset: decimal;
-}
-
-#chapter-5-3-3 ol li{
-	list-style: none;
-	position: relative;
-}
-
-#chapter-5-3-3 ol li:before{
-	content: "(" counter(decimal, decimal)")";
-	counter-increment: decimal;
-	display: inline-block;
-	left: -1.5em;
 	position: absolute;
 }
 
