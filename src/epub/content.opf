@@ -63,9 +63,16 @@
 		<meta property="file-as" refines="#artist">Kennington, Thomas Benjamin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Benjamin_Kennington</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
+		<dc:contributor id="transcriber-1">Rick Niles</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Niles, Rick</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-2">Jon King</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">King, Jon</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bystricky, Lukas</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
