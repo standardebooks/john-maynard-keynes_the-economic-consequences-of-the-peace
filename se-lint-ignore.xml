@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="chapter-4.xhtml">
-		<ignore>
-			<code>t-057</code>
-			<reason>Lines start with lower case roman numerals.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-5.xhtml">
-		<ignore>
-			<code>t-057</code>
-			<reason>Lines start with lower case roman numerals.</reason>
-		</ignore>
 		<ignore>
 			<code>y-019</code>
 			<reason>Opening quote for blockquote included in CSS.</reason>
