@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="chapter-5.xhtml">
-		<ignore>
-			<code>y-019</code>
-			<reason>Opening quote for blockquote included in CSS.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
