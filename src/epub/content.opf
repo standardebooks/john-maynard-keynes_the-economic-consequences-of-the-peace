@@ -57,9 +57,9 @@
 		<meta property="file-as" refines="#author">Keynes, John Maynard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Maynard_Keynes</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79004113</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Thomas Benjamin Kennington</dc:contributor>
 		<meta property="file-as" refines="#artist">Kennington, Thomas Benjamin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Benjamin_Kennington</meta>
