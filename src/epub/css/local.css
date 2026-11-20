@@ -77,7 +77,7 @@ ol{
 	position: relative;
 }
 
-#chapter-5-2 ol li:first-of-type:before{
+#chapter-5-2 ol li:first-of-type::before{
 	content: "“";
 	display: inline-block;
 	left: 1em;
