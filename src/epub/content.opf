@@ -50,7 +50,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15776</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.135642</dc:source>
-		<meta property="schema:wordCount">59614</meta>
+		<meta property="schema:wordCount">59608</meta>
 		<meta property="schema:educationalLevel">43.06</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Economic_Consequences_of_the_Peace" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
