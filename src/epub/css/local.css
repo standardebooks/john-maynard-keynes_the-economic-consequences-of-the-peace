@@ -77,7 +77,7 @@ ol{
 	position: relative;
 }
 
-#chapter-5-2 ol li:first-of-type::before{
+#chapter-5-2 ol:not(.inline) li:first-of-type::before{
 	content: "“";
 	display: inline-block;
 	left: 1em;
@@ -103,4 +103,25 @@ ol{
 
 #endnotes th{
 	text-align: center;
+}
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
 }
